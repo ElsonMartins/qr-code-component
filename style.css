@@ -27,7 +27,6 @@ body {
   width: 22rem;
   padding: 1.5rem;
   border-radius: 1.5rem;
-  
 }
 
 .grid-container img {
@@ -59,8 +58,24 @@ body {
   text-decoration: none;
 }
 
+@media (min-width: 22rem){
+  body {
+    min-height: 0;
+    padding-top: 5rem;
+  }
+
+  .container {
+    width: 17.5rem;
+  }
+
+  .titulo {
+    font-size: 1.4rem;
+  }
+
+  .conteudo {
+    font-size: 1rem;
+  }
+}
 
 
-
-/* - Font size (paragraph): 15px */
 /*- Mobile: 375px 25rem */
