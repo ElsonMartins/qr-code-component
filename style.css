@@ -20,10 +20,9 @@ body {
   place-content: center;
 }
 
-.container {
+main {
   display: grid;
   background-color: var(--white);
-  display: grid;
   width: 22rem;
   padding: 1rem;
   border-radius: 1.5rem;
@@ -58,9 +57,9 @@ body {
   text-decoration: none;
 }
 
-@media (min-width: 22rem){
+@media (max-width: 24rem){
   body {
-    min-height: 0;
+    min-height: 100vh;
     padding-top: 5rem;
   }
 
